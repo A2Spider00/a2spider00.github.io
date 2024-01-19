@@ -1,0 +1,32 @@
+h1 {
+	text-align: center;
+}
+
+main {
+	width: 25rem;
+	height: 25em;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+main div {
+	width: calc((100% / 3) - 1px);
+	height: calc((100% / 3) - 1px);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 3rem;
+	background: gainsboro;
+	background: transparent;
+	border: 1px solid #000;
+}
+
+body {
+	background-image: url(../img/4k-gaming-33vov45f7zqi6t75.jpg);
+}

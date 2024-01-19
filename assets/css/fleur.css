@@ -1,0 +1,76 @@
+/*********************************/
+/** DEBUT DU CSS DES COULEURS ***/
+/*******************************/
+.link-green-color a{color:#088A4B;}
+
+.text-green-color{color:#088A4B;}
+
+.bg-green-color{background-color:#088A4B;}
+
+.text-green-light-color{color:#92E3A9;}
+
+.bg-green-light-color{background-color:#92E3A9;}
+
+.btn-green{background-color:#088A4B !important;}
+/*********************************/
+/*** FIN DU CSS DES COULEURS ****/
+/*******************************/
+/*********************************/
+/** DEBUT DU CSS DE LA NAVBAR ***/
+/*******************************/
+.navbar-brand:hover{color:#92E3A9;}
+
+.navbar li a:hover{color:#92E3A9;background-color: #088A4B;}
+
+.navbar .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%288, 138, 75, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e" )!important;
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem #088A4B !important;
+}
+
+.navbar-collapse {
+    flex-grow: 0 !important;
+}
+
+
+.navbar {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+}
+/*********************************/
+/*** FIN DU CSS DE LA NAVBAR ****/
+/*******************************/
+/*********************************/
+/*** DEBUT DU CSS DU CAROUSEL ***/
+/*******************************/
+.carousel-item, .carousel-item img {
+    height: 50vh;
+    object-fit: cover;
+}
+
+.carousel-title{
+    font-size: 9vh;
+}
+/*********************************/
+/**** FIN DU CSS DU CAROUSEL ****/
+/*******************************/
+/*********************************/
+/*** DEBUT DU CSS DESCRIPTION ***/
+/*******************************/
+.card-text{font-size: .8rem;}
+.card-title{font-size: .8rem;}
+/*********************************/
+/**** FIN DU CSS DESCRIPTION ****/
+/*******************************/
+/*********************************/
+/****** DEBUT DU CSS FOOTER *****/
+/*******************************/
+.mail{font-size: .8rem;}
+.mail:hover{color:#92E3A9;cursor: pointer;}
+.social-icon:hover{color:#92E3A9;cursor: pointer;}
+/*********************************/
+/******* FIN DU CSS FOOTER ******/
+/*******************************/

@@ -1,0 +1,269 @@
+body {
+    background-color: #000000;
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
+
+.my-backgroundcolor {
+    background-color: #F3B67C;
+}
+
+.my-backgroundcolorr {
+    background-color: #FF8C00;
+}
+
+.my-text-colorr {
+    color: #FF8C00;
+}
+
+.my-text-color {
+    color: #F3B67C;
+}
+
+.apropos {
+    margin-left: 50px;
+    margin-top: 28px;
+    color: #FF8C00;
+}
+@media (max-width: 767px) {
+    .apropos {
+        text-align: center;
+        margin-right: 3rem;
+    }
+}
+
+.pdemoi {
+    margin-top: 1rem;
+    margin-left: 3rem;
+    color: #F3B67C;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .pdemoi {
+        margin-left: 3rem;
+        /* Aucune marge à gauche sur les écrans de téléphone */
+        font-size: 16px;
+        /* Taille de police réduite pour les écrans de téléphone */
+    }
+}
+
+.informatincontact {
+    margin-left: 50px;
+    margin-top: 28px;
+    color: #FF8C00;
+}
+@media (max-width: 767px) {
+    .informatincontact {
+        text-align: center;
+        margin-right: 3rem;
+    }
+}
+
+.email-link {
+    margin-left: 15rem;
+    text-decoration: none;
+    color: #F3B67C;
+}
+
+@media (max-width: 767px) {
+    .email-link {
+        margin-left: 5rem;
+        /* Remove left margin on smaller screens */
+        text-align: center;
+        /* Center the link on smaller screens */
+    }
+}
+
+.telephone-link {
+    margin-left: 25rem;
+    text-decoration: none;
+    color: #F3B67C;
+}
+@media (max-width: 767px) {
+    .telephone-link {
+        margin-left: 9rem;
+        /* Remove left margin on smaller screens */
+        margin-top: 2rem;
+        text-align: center;
+        /* Center the link on smaller screens */
+    }
+}
+
+/*w icons*/
+.icon-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.icon-container figure {
+    text-align: center;
+    margin: 2rem;
+}
+
+.icon-container i {
+    font-size: 8rem;
+}
+
+.portofolio {
+    margin-left: 50px;
+    margin-top: 28px;
+    color: #FF8C00;
+}
+@media (max-width: 767px) {
+    .portofolio {
+        text-align: center;
+        /* Center the link on smaller screens */
+        margin-right: 3rem;
+    }
+}
+
+.card-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    height: 30rem;
+    width: 100%;
+    margin: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-decoration: none;
+    /* Supprimer la décoration de lien par défaut */
+    color: inherit;
+    /* Hériter de la couleur du texte parent */
+    overflow: hidden;
+    /* Empêcher le débordement du contenu de la carte */
+}
+
+.bgimage1 {
+    width: 100%;
+    height: 700%;
+    background-image: url(../img/Capture\ d’écran\ 2024-01-16\ à\ 20.48.09.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.bgimage2 {
+    width: 100%;
+    height: 700px;
+    background-image: url(../img/Capture\ d’écran\ 2024-01-16\ à\ 22.00.08.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.bgimage3 {
+    width: 100%;
+    height: 700px;
+    background-image: url(../img/ssss.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #555;
+}
+@media (max-width: 767px) {
+    .card-title {
+        font-size: 1rem; /* Adjust the font size for smaller screens */
+        margin-bottom: 7rem; /* Adjust the margin for smaller screens */
+    }
+
+    .card-text {
+        font-size: 0.9rem; /* Adjust the font size for smaller screens */
+        line-height: 1.3; /* Adjust the line height for smaller screens */
+    }
+}
+
+.text-body-secondary {
+    color: #888;
+}
+
+.formation {
+    margin-left: 50px;
+    margin-top: 28px;
+    color: #FF8C00;
+}
+@media (max-width: 767px) {
+    .formation {
+        text-align: center;
+        /* Center the link on smaller screens */
+        margin-right: 3rem;
+    }
+}
+.col-6 {
+    width: 50%;
+}
+@media screen and (max-width: 767px) {
+    .col-6 {
+        width: 100%; /* Occupe la pleine largeur sur les écrans de petite taille */
+    }
+}
+
+
+.monimage3 {
+    background-image: url(../img/la-manu-ecole-superieure-metiers-numerique-logo.jpg);
+    margin-top: 3rem;
+    margin-left: 2rem;
+    width: 100%;
+    height: 13rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.deuxdivprp {
+    margin-top: 8rem;
+}
+
+.monimage4 {
+    background-image: url(../img/welchem.png);
+    margin-top: 3rem;
+    margin-left: 2rem;
+    width: 100%;
+    height: 11rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.monimage5 {
+    background-image: url(../img/maxresdefault.jpg);
+    margin-top: 7rem;
+    margin-left: 2rem;
+    width: 100%;
+    height: 13rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.deuxdivprp1 {
+    margin-top: 11rem;
+}
+
+.centreinteret {
+    margin-left: 5px;
+    margin-top: 28px;
+    color: #FF8C00;
+}
