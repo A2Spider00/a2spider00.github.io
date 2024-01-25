@@ -272,6 +272,21 @@ body {
         /* Ajoutez d'autres styles mobiles ici si nécessaire */
     }
 }
+.lanneee {
+    margin-top: 1rem;
+    margin-left: 307px;
+    font-size: 20px;
+    color: white;
+}   
+@media (max-width: 768px) {
+    .lanneee {
+        font-size: 14px;
+        margin-left: 40px;
+        margin-top: 5px;
+        /* Ajustez la taille de la police pour la version mobile */
+        /* Ajoutez d'autres styles mobiles ici si nécessaire */
+    }
+}
 
 .wylchemmm {
     margin-top: 6rem;
@@ -287,6 +302,22 @@ body {
         /* Ajoutez d'autres styles mobiles ici si nécessaire */
     }
 }
+.wylchemmm1 {
+    margin-top: 1rem;
+    margin-left: 300px;
+    font-size: 20px;
+    color: white;
+}
+@media (max-width: 768px) {
+    .wylchemmm1 {
+        font-size: 14px;
+        margin-left: 45px;
+        margin-top: 5px;
+        /* Ajustez la taille de la police pour la version mobile */
+        /* Ajoutez d'autres styles mobiles ici si nécessaire */
+    }
+}
+
 
 
 
@@ -300,6 +331,21 @@ body {
         font-size: 14px;
         margin-left: 3rem;
         margin-top: 1rem;
+        /* Ajustez la taille de la police pour la version mobile */
+        /* Ajoutez d'autres styles mobiles ici si nécessaire */
+    }
+}
+.cartonnageeee {
+    margin-top: 2rem;
+    margin-left: 19rem;
+    font-size: 20px;
+    color: white;
+}
+@media (max-width: 768px) {
+    .cartonnageeee  {
+        font-size: 14px;
+        margin-left: 51px;
+        margin-top: 5px;
         /* Ajustez la taille de la police pour la version mobile */
         /* Ajoutez d'autres styles mobiles ici si nécessaire */
     }
